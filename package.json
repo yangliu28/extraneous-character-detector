@@ -1,0 +1,25 @@
+{
+    "name": "extraneous-character-detector",
+    "displayName": "Extraneous Character Detector",
+    "description": "Detect and highlight suspicious characters",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asdf",
+            "aliases": ["asdf", "asdf"],
+            "extensions": [".asdf"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asdf",
+            "scopeName": "",
+            "path": "./syntaxes/asdf.tmLanguage.json"
+        }]
+    }
+}
