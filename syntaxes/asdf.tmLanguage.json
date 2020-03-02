@@ -4,12 +4,6 @@
 	"fileTypes": [".asdf"],
 	"patterns": [
 		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
-		},
-		{
 			"name":"keyword.other",
 			"match": "ʃ(.*)"
 		},
