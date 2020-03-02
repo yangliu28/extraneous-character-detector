@@ -20,6 +20,10 @@
 		{
 			"name":"keyword.other",
 			"match": "ɻ(.*)"
+		},
+		{
+			"name":"keyword.other",
+			"match": "ɽ(.*)"
 		}
 	]
 }
